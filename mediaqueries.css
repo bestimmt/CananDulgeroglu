@@ -1,6 +1,6 @@
 @media screen and (max-width: 1400px) {
     #profile {
-        height: 83vh;
+        height: 53vh;
         margin-bottom: 6rem;
     }
     .about-containers {
@@ -62,10 +62,10 @@
         width: 25px;
     }
     .logo img {
-        max-width: 35px;
+        max-width: 100%;
     }
     #profile {
-        height:72vh;
+        height:36vh;
         margin-bottom: 0;
     }
     .about-containers, .contact-info-upper-container,
