@@ -509,15 +509,15 @@ textarea {
 
 
 footer p::before {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-right: 0.5rem;
 }
 
 footer {
     text-align: justify;
-    padding: 10px;
+    padding: 9px;
     text-align: center;
-    background-color: #030341;
+    background-color: #3cbae1;
     bottom: 0;
     width: 100%;
     
@@ -527,8 +527,8 @@ footer {
     text-decoration: none;
     color: rgb(4, 4, 55);
     text-align: justify;
-    background-color: #60c4ec;
-    padding: 10px;
+    border: #03036a;
+    padding: 5px;
     border-radius: 10px;
     transition: background-color 0.3s ease;
 }

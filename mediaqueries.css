@@ -12,6 +12,8 @@
 }
 
 @media screen and (max-width: 1200px) {
+    nav {
+        display: none;}
     .header {
         width: 100%;
         padding: 5px 10px;
@@ -20,7 +22,7 @@
         align-items: center;
         background-color: transparent;
         position: fixed;
-        text-emphasis-color: rgb(4, 4, 108);
+        text-emphasis-color: rgb(4, 4, 108);}
     .nav-links {
         list-style: none;
         margin-top: 30px;
