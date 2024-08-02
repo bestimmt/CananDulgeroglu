@@ -19,7 +19,7 @@ html {
 }
 
 p {
-    color: #555;
+    color: #11044a;
 }
 
 /* TRANSITION */
@@ -33,10 +33,12 @@ a,
 
 .header {
     width: 100%;
-    padding: 15px 0px;
+    padding: 5px 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #03036a;
+    position: fixed;
 }
 
 nav {
@@ -57,17 +59,14 @@ nav ul li {
 
 .nav-links {
     list-style: none;
-    margin-top: 0;
+    margin-top: 30px;
     font-size: 1.3rem;
 }
 
-.logo img {
-    max-width: 50px;
-    height: auto;
-}
+
 
 a {
-    color: black;
+    color: rgb(192, 209, 237);
     text-decoration: none;
     text-decoration-color: white;
 }
@@ -94,14 +93,14 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 24px;
-    width: 30px;
+    height: 100%;
+    width: 100%;
     cursor: pointer;
 }
 
 .hamburger-icon span {
     width: 100%;
-    height: 2px;
+    height: 100%;
     background-color: black;
     transition: all 0.3 ease-in-out;
 }
@@ -109,7 +108,7 @@ a:hover {
 .menu-links {
     position: absolute;
     top: 100%;
-    right: 0%;
+    right: 100%;
     background-color: white;
     width: fit-content;
     max-height: 0;
@@ -119,7 +118,7 @@ a:hover {
 
 .menu-links a {
     display: block;
-    padding: 10px;
+    padding: 50px;
     text-align: center;
     font-size: 1.2rem;
     color: black;
@@ -160,11 +159,18 @@ a:hover {
 /* SECTIONS */
 
 main {
-    margin-top: 60px;
+    margin-top: 50px;
 }
-
+.logo img {
+    display: flex;
+    margin: auto;
+    width: 139px;
+    max-width: fit-content;
+    align-items: center;
+    justify-content: center;
+}
 section {
-    padding-top: 4vh;
+    padding-top: 1px;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -180,15 +186,8 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
-    height: 85vh;
-}
-
-.section_pic_container {
-    display: flex;
-    height: 475px;
-    width: 475px;
-    margin: auto 0;
+    gap: 2rem;
+    height: auto;
 }
 
 .section_text {
@@ -220,7 +219,7 @@ section {
 }
 
 .btn_color {
-    background: linear-gradient(90deg, #6091cc, #ef8ebf);
+    background: linear-gradient(90deg, #040962, #78c5ee);
     border: none;
     color: white;
     padding: 1rem 1rem;
@@ -231,14 +230,14 @@ section {
 }
 
 .btn_color:hover {
-    background-color: #4f7ebf;
+    background-color: #073980;
     transform: scale(1.05);
 }
 
 /* ABOUT SECTION */
 
 #about {
-    padding: 4rem 0;
+    padding: 1rem 0;
     text-align: center;
 }
 
@@ -253,9 +252,9 @@ section {
     bottom: -10px;
     left: 50%;
     transform: translateX(-50%);
-    width: 80px;
+    width: 100px;
     height: 3.5px;
-    background: linear-gradient(90deg, #6091cc, #ef8ebf);
+    background: linear-gradient(90deg, #040962, #85c3e5);
     border-radius: 1px;
 }
 
@@ -460,7 +459,7 @@ textarea {
 }
 
 .submit-button {
-    background: linear-gradient(90deg, #6091cc, #ef8ebf);
+    background: linear-gradient(90deg, #050779, #3cbae1);
     border: none;
     color: white;
     padding: 1rem 2rem;
@@ -508,15 +507,6 @@ textarea {
 
 /* FOOTER SECTION */
 
-footer {
-    padding: 2rem 0;
-    text-align: center;
-    background-color: #F9F9F7;
-}
-
-footer p {
-    margin: 0;
-}
 
 footer p::before {
     font-size: 1.2rem;
@@ -524,24 +514,25 @@ footer p::before {
 }
 
 footer {
+    text-align: justify;
+    padding: 10px;
     text-align: center;
-    padding: 20px;
-    background-color: #f1f1f1;
-    position: fixed;
+    background-color: #030341;
     bottom: 0;
     width: 100%;
-  }
-  
-  .home-button {
+    
+}
+
+.home-button {
     text-decoration: none;
-    color: white;
-    background-color: #8461e5;
-    padding: 10px 20px;
-    border-radius: 5px;
+    color: rgb(4, 4, 55);
+    text-align: justify;
+    background-color: #60c4ec;
+    padding: 10px;
+    border-radius: 10px;
     transition: background-color 0.3s ease;
-  }
-  
-  .home-button:hover {
-    background-color: #0056b3;
-  }
-  
+}
+
+.home-button:hover {
+    background-color: #1e08e7;
+}

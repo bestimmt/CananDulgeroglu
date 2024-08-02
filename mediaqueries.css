@@ -1,16 +1,30 @@
 @media screen and (max-width: 1400px) {
     #profile {
-        height: 53vh;
-        margin-bottom: 6rem;
+        height: 56vh;
+        margin-bottom: 3%;
     }
     .about-containers {
         flex-wrap: wrap;
     }
+    #footer {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1200px) {
-    #nav {
-        display: none;
+    .header {
+        width: 100%;
+        padding: 5px 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: transparent;
+        position: fixed;
+        text-emphasis-color: rgb(4, 4, 108);
+    .nav-links {
+        list-style: none;
+        margin-top: 30px;
+        font-size: 1rem;
     }
     #hamburger-nav {
         display: flex;
@@ -19,7 +33,7 @@
         margin-top: 2rem;
     }
     #about {
-        padding: 0 0;
+        padding: 10 10;
     }
     #profile,
     .section-container {
@@ -54,6 +68,7 @@
 }
 
 @media screen and (max-width: 768px) {
+
     .header {
         padding: 15px 20px;
         justify-content: space-between;
